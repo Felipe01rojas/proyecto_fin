@@ -25,7 +25,7 @@ var transporte =true;
 
 var electrisidade = false;
 
-if(transporte === true ||electrisidade === false){
+if(transporte === false ||electrisidade === false){
     console.log("El evento ha sido suspendido");
 }else{
     console.log("El evento no se ha modificado");

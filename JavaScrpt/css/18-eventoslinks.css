@@ -1,0 +1,12 @@
+div {
+  top: 50%;
+  margin: 150px auto;
+  width: 250px;
+  font-size: 2em;
+}
+a {
+  text-decoration: wavy;
+}
+a:hover {
+  color: gold;
+}
