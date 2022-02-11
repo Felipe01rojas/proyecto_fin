@@ -8,6 +8,14 @@
     <title>Document</title>
   </head>
   <body>
-    <input type="text" onfocus="this.style.background=gold" />
+    <form onsubmit="validarInfo('numeroDocumento');">
+      <input
+        type="text"
+        id="numeroDocumento"
+        onfocus="this.style.backgroundcolor=gold"
+        onblur="this.style.backgroundcolor='wite'"
+      />
+      <input class="style-buton" type="submit" value="Enviar" />
+    </form>
   </body>
 </html>
