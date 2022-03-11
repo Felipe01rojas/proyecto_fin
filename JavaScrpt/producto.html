@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/producto.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="icons/all.css" />
+    <link rel="stylesheet" href="css/estilo_producto.css" />
+  </head>
+  <body>
+    <field>
+      Subtotal cop<label id="costoTotal">0</label>
+      <div class="producto">
+        Proceder al pago(<label id="Producto"
+          ><label id="cantidadProducto">1</label></label
+        >
+        productos)
+      </div>
+      <br />
+
+      <img src="img/hackings.png" alt="" />
+      <p class="desc">
+        El objetivo de este libro es introducir a los lectores en el mundo de la
+        seguridad y el hacking, concretamente en el ámbito de las redes
+        inalámbricas, que están presentes no solo en domicilios o entornos
+        corporativos, sino en gran cantidad de lugares públicos, con lo que
+        constituyen un canal de comunicación ampliamente utilizado a la vez que
+        vulnerable.
+      </p>
+
+      <p class="RaMa">por: Ra-Ma</p>
+
+      <p class="caratula">Rústica</p>
+
+      <div class="div-boton" onclick="disminuirPedido()">
+        <i class="fas fa-minus"></i>
+      </div>
+      <label class="label" id="cantidadElementos">1</label>
+
+      <div class="div-boton" onclick="aumentarPedido()">
+        <i class="fas fa-plus"></i>
+      </div>
+      <br />
+
+      <input type="button" value="Eliminar" class="btn1" />
+
+      <input type="button" value="Guardar para mas tarde" class="btn2" />
+      <p class="h3">cop<label id="valorUnitario">51000</label></p>
+    </field>
+
+    <script src="js/producto.js"></script>
+  </body>
+</html>

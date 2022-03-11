@@ -1,0 +1,57 @@
+.div-boton {
+  border: 1px solid black;
+  width: 20px;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 6em;
+  margin-top: 2em;
+}
+
+.producto {
+  height: 30px;
+  width: 35em;
+  text-align: center;
+  background: yellow;
+}
+
+img {
+  width: 200px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.desc {
+  width: 20em;
+  height: 10em;
+  margin-left: 15em;
+  margin-top: -18em;
+  font-weight: 400;
+  font-size: 15.8px;
+}
+
+.RaMa {
+  margin-top: 1em;
+  margin-left: 12em;
+  font-size: 20px;
+}
+
+.caratula {
+  margin-left: 15em;
+}
+
+.precio_to {
+  margin-top: -4em;
+  margin-left: 12em;
+  font-size: 20px;
+}
+
+.btn1 {
+  margin-left: 20em;
+  margin-top: -1em;
+}
+
+.h3 {
+  margin-left: 240px;
+  margin-top: -89px;
+}
