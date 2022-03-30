@@ -4,34 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>tabla productos</title>
     <link rel="stylesheet" href="css/registro_productos.css" />
   </head>
   <body>
-    <fieldset>
-   
-      <form method="post">
-        <h1>Registro de Productos</h1>
-        <tr>
-          <td>codigo del producto<input type="text" /></td>
-        </tr>
-        <br />
-        <tr class="desc">
-          <td>descripción<input class="desc" type="text" /></td>
-        </tr>
-        <br />
-        <tr class="val">
-          <td>valor unitario <input class="val" type="text" /></td>
-        </tr>
-        <br />
-          <label class="uni"> 
-            <td>Unidades stock<input type="text" /></td>
-          <label> <br>
-        <input type="button" value="Cargar productos" onclick="registrarInfo()"/>
+    <div class="conten">
+      <form action="">
+        <fieldset>
+          <div class="main-content">
+            <div class="content">
+              <h1>Registro De Productos</h1>
+            </div>
+            <div class="content-1">
+              <label>Codigo de Producto</label>
+            </div>
+            <div class="content-1-1"><input id="codigo" /><br /><br /></div>
+            <div class="content-2">
+              <label>Descripcion</label>
+            </div>
+            <div class="content-2-2">
+              <input id="descripcion" /><br /><br />
+            </div>
+            <div class="content-3">
+              <label>Valor Unitario</label>
+            </div>
+            <div class="content-3-3">
+              <input id="ValorUNitario" />
+            </div>
+            <div class="content-4">
+              <label>Unidades en Stock</label><br /><br />
+            </div>
+            <div class="content-4-4">
+              <input id="UnidadesStock" />
+            </div>
+            <div class="content-5">
+              <input
+                class="style_button"
+                type="button"
+                value="Cargar Productos"
+                onclick="CargarProducto()"
+              />
+            </div>
+          </div>
+        </fieldset>
       </form>
-   </fieldset>
-   <br><br>
-      <div id="table-js"></div>
+    </div>
+    <br /><br /><br />
+
+    <div id="table_js"></div>
+
     <script src="js/registro_productos.js"></script>
   </body>
 </html>
