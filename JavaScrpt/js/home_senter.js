@@ -5,8 +5,8 @@ let btnCerrarPopUp = document.getElementById("btn-cerrar-popup");
 
 
 
-const lupa = document.getElementById("idLupa");
-lupa.addEventListener("click", miFunction);
+/*const lupa = document.getElementById("idLupa");
+lupa.addEventListener("click", miFunction);*/
 
 function miFunction() {
     document.getElementById("idHeader").innerHTML = "";
@@ -34,3 +34,12 @@ function openPopup() {
     let popup = document.getElementById("popup");
     popup.classList.add("open-popup");
 }
+
+
+const lupa = document.getElementById("idLupa");
+const menu1 = document.getElementById("idHeader")
+const menu2 = document.getElementById("menu2")
+
+lupa.addEventListener("click",function(){
+    menu1.classList.remove("encabezado");
+})
