@@ -27,7 +27,7 @@
 } */
 .main-content{
     width: 100%;
-    height: 300px;
+    height: 2800px;
     background-color: rgb(194, 249, 28);
     z-index: 3;
 }
@@ -35,17 +35,17 @@
     display: flex;
     color: #d204fb;
     font-size: 4.5em;
-    font-weight: 900;
+    font-weight: 1200;
     flex-direction:row;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
+    height: 900px;
 }
 .content-3{
     background-color: rgb(165, 234, 26);
     /* margin-top: -500px; */
     width: 100%;
-    height: 300px;
+    height: 2800px;
     z-index: 4;
 }
 .tokyo{
